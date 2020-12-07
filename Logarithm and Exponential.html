@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exponential and logarithm
+        </title>
+        <script type="text/javascript">
+            function exp()
+            {
+                var a=document.f1.t1.value;
+                var b=Math.pow(a,2) ;
+                document.f1.t2.value=b;
+                var c=Math.pow(a,0.5);
+                document.f1.t3.value=c;
+                var d=Math.pow(a,3);
+                document.f1.t4.value=d;
+                var e=Math.pow(a,1/3);
+                document.f1.t5.value=e;
+                var f=Math.log10(a);
+                document.f1.t6.value=f;
+                var g=Math.log(a);
+                document.f1.t7.value=g;
+            }
+            </script>
+    </head>
+    <body>
+        <center>
+        <h1>logarithm and Exponential</h1>
+    <form name="f1">
+        <label>Enter number: </label> <input type="number" name="t1">
+        <br>
+        <br>
+     <input type="button" value="Click here!" onclick="exp()">
+        <br>
+        <br>
+        <label>Its square is </label> <input type="number" name="t2">
+        <br>
+        <br>
+        <label>Its square root is </label> <input type="number" name="t3">
+        <br>
+        <br>
+        <label>Its cube is </label> <input type="number" name="t4">
+        <br>
+        <br>
+        <label>Its cube root is </label> <input type="number" name="t5">
+        <br>
+        <br>
+        <label>Its log to the base 10  </label> <input type="number" name="t6">
+        <br>
+        <br>
+        <label>Its natural log is </label> <input type="number" name="t7">
+        <br>
+        <br
+    </center>
+   </form>    
+   <a href="Home.html">Click to go to Home Page</a>
+</body>
+</html>
+

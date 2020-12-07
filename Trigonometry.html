@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trigonometry</title>
+        <script type="text/javascript">
+            function trigo()
+            {
+            var a=parseInt(document.f1.t1.value);
+            document.f1.t2.value=Math.sin(a);
+            document.f1.t3.value=Math.cos(a);
+            document.f1.t4.value=Math.tan(a);
+            document.f1.t5.value=1/Math.sin(a);
+            document.f1.t6.value=1/Math.cos(a);
+            document.f1.t7.value=1/Math.tan(a);
+            }
+            </script>
+    </head>
+    <body>
+        <form name="f1">
+            <center>
+            <label>Enter the angle</label><input type="text" name="t1">
+            <br>
+            <input type="button" onclick="trigo()" value="Click Here!">
+            <br>
+            <br>
+            <label>Sine</label><input type="text" name="t2">
+            <br>
+            <br>
+            <label>Cosine</label><input type="text" name="t3">
+            <br>
+            <br>
+            <label>Tangent</label><input type="text" name="t4">
+            <br>
+            <br>
+            <label>Cosecant</label><input type="text" name="t5">
+            <br>
+            <br>
+            <label>Secant</label><input type="text" name="t6">
+            <br>
+            <br>
+            <label>Cotangent</label><input type="text" name="t7">
+        </center>
+        </form>
+        <br>
+        <br>
+        <a href="Home.html">Click here to go to home page</a>
+    </body>
+</html>
